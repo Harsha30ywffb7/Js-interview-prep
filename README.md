@@ -1,7 +1,7 @@
 
 # functions
 
-# Difference between function statement and function expression ?
+- Difference between function statement and function expression ?
     - Hoisting 
 
 1. What is Function Statement ?
