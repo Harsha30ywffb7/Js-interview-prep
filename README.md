@@ -5,7 +5,7 @@
     - Hoisting 
 
 1. What is Function Statement ?
-   - A normal function that we create using Naming convention. & By this we can do the Hoisting.
+*     A normal function that we create using Naming convention. & By this we can do the Hoisting.
       For Ex  -  function xyz(){
                             console.log("Function Statement");
                        }
