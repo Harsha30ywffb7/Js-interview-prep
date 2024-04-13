@@ -11,7 +11,7 @@
                        }
 
 - What is Function Expression ?
-*  When we assign a function into a variable that is Function Expression. & We can not do Hoisting by this becz it acts like variable.
+*  When we assign a function into a variable that is Function Expression. & We can not do Hoisting by this becz   it acts like variable.
       For Ex - var a = function(){
                             console.log("Function Expression");
                     }
@@ -59,7 +59,7 @@
     - These functions unlocked whole asynchronous world in a single threaded and synchronous javascript language.
 
 - How async works by callaback in sync js?
-*   - Ex - setTimeout (function (){
+*    Ex - setTimeout (function (){
                 console.log("async works")
             }, 5000);
 
