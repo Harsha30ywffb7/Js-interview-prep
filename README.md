@@ -53,13 +53,13 @@
 
 # callback Functions
 
-- what is call back functions?
-*   - a function is pass in a function are called call back functions.
+* what is call back functions?
+    - a function is pass in a function are called call back functions.
     - callbacks executed after the function is executed. only depends on that function. 
     - These functions unlocked whole asynchronous world in a single threaded and synchronous javascript language.
 
-- How async works by callaback in sync js?
-*    Ex - setTimeout (function (){
+* How async works by callaback in sync js?
+    - setTimeout (function (){
                 console.log("async works")
             }, 5000);
 
@@ -70,15 +70,15 @@
     - setTimeout changes javascript to sync to async
     - after timer time the functions runs inside in call stack.
 
-- Blocking main thread
-*   - 
+* Blocking main thread
+    - 
 
-- EventListeners
-*   - eventListeners invoke the callback functions.
+* EventListeners
+    - eventListeners invoke the callback functions.
     - Event listeners can also invoke closures with scope.
 
-- Garbage Collection and remove EventListeners
-*   - Event listeners are too heavy and occupies more memory.
+* Garbage Collection and remove EventListeners
+    - Event listeners are too heavy and occupies more memory.
     - Even after completetion of eventlistener , they still in browser and they attach with call back functions, those functions are not free up space from call stack.
     - They slow up the page. so we need to remove them after event executed.
 
