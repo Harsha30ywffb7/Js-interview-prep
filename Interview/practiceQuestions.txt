@@ -1,0 +1,5 @@
+1. Given an array of objects, write a function that returns a new array with only the names of each object.
+
+2.Given an array of objects, write a function that returns a new array with only the objects whose “completed” property is true.
+
+4.Given an array of strings, return a new array with the length of each string
